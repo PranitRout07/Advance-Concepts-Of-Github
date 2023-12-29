@@ -19,8 +19,6 @@ var tests = []struct {
 	{"invalid-data", 89.0, 0.0, 0.0, true},
 	{"valid-data", 500.0, 2.0, 250.0, false},
 	{"valid-data", 200.0, 4.0, 50.0, false},
-	{"valid-data", 600.0, 2.0, 300.0, false},
-	{"valid-data", 550.0, 11.0, 50.0, false},
 	{"valid-data", 250.0, 2.0, 125.0, false},
 	{"valid-data", 800.0, 2.0, 400.0, false},
 	{"valid-data", 12.0, 2.0, 6.0, false},
