@@ -2,16 +2,16 @@ package main
 
 import (
 	"errors"
-	"fmt"
+	"log"
 )
 
 func main() {
 	res, err := divide(10.0, 5.0)
 	if err != nil {
-		fmt.Println("Error :", err)
+		log.Println("Error :", err)
 		return
 	}
-	fmt.Println("The result is ", res)
+	log.Println("The result is ", res)
 
 }
 func divide(x, y float64) (float64, error) {
