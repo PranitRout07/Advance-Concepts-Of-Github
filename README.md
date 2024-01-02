@@ -65,3 +65,32 @@ git reset --hard HEAD~1
 ```
 <img width="521" alt="Screenshot 2023-12-29 150840" src="https://github.com/PranitRout07/Advance-Concepts-Of-Github/assets/102309095/7ef2cd26-6504-426d-b48b-c10f282e56c4">
 
+### Filtering Commit History
+
+Commit history can be filtered :
+
+by date  --before / --after 
+
+by message  --grep 
+
+by author --authore 
+
+by filename --filename 
+
+
+Example of filtering commit by date :
+
+```
+git log --after="2023-12-26"
+```
+<img width="1058" alt="Screenshot 2024-01-02 191129" src="https://github.com/PranitRout07/Advance-Concepts-Of-Github/assets/102309095/9812d2dd-0e73-403c-990a-baacfe845ed7">
+
+
+Example of filtering commit by message :
+
+```
+git log --grep="added"
+```
+
+<img width="1053" alt="Screenshot 2024-01-02 191223" src="https://github.com/PranitRout07/Advance-Concepts-Of-Github/assets/102309095/7de446a9-f0e2-46f0-91f1-39e9b96d831f">
+
